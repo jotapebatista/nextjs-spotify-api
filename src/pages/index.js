@@ -5,7 +5,7 @@ import UserProfile from './components/UserProfile';
 import NowPlaying from './components/NowPlaying';
 import TopTracks from './components/TopTracks';
 
-import NowPlayingDesing from './components/NowPlayingDesing';
+
 
 import DataFetcher from 'lib/dataFetcher';
 
@@ -82,7 +82,7 @@ export default function Home() {
         {activeMenu === 'nowPlaying' && ( <NowPlaying data={{ album, albumImageUrl, artist, songUrl, title }} isPlaying={isPlaying} /> )}
         {activeMenu === 'topTracks' && <TopTracks topTracks={topTracks} />}
         {activeMenu === 'Home' && <UserProfile userProfile={userProfile} />}
-        <NowPlayingDesing />
+
       </main>
     </>
   );
