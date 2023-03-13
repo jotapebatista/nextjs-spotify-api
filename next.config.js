@@ -3,14 +3,4 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'i.scdn.co'
-      },
-    ],
-  },
-  nextConfig
-}
+module.exports = nextConfig
